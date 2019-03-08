@@ -2,6 +2,9 @@
 ## Exercises projects – 40 points
 – 6 exercises trying to apply the methods in engineering
 ### Ordinary differential equations – adaptive methods
+- Explicit Euler
+- Heune
+- Runge-Kutty 4th order
 
 ### Ordinary differential equations – stiff systems, multi-step methods
 
