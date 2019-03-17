@@ -7,6 +7,7 @@
 - Runge-Kutty 4th order
 
 ### Ordinary differential equations – stiff systems, multi-step methods
+- https://www.mathworks.com/help/matlab/ref/ode15s.html 
 
 ### Iterative methods of solving systems of equations, condition number of system of equations with eigenvalues evaluation, improving convergence with preconditioning (pl.
 
