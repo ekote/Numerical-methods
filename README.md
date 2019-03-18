@@ -8,6 +8,8 @@
 
 ### Ordinary differential equations – stiff systems, multi-step methods
 - https://www.mathworks.com/help/matlab/ref/ode15s.html 
+- http://mst.mimuw.edu.pl/lecture.php?lecture=nrr&part=Ch6
+- http://mobius.ms.polsl.pl/mariusz.pleszczynski/pulpit/w8_met_num.PDF
 
 ### Iterative methods of solving systems of equations, condition number of system of equations with eigenvalues evaluation, improving convergence with preconditioning (pl.
 
