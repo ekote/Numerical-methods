@@ -1,0 +1,36 @@
+function MRS
+    h = <TBD>; % krok calkowania
+    n = 8 / h; % liczba wezlow
+    % Dyskretyzacja
+    x = linspace(- 1, 7, n + 1);
+    % Inicjalizacja macierzy
+    A = zeros(length(x));
+    b = zeros(length(x), 1);
+    % warunki brzegowe
+    A(1, 1) = 1;
+    A(end, end) = 1;
+    b(<TBD>) = <TBD>;
+    b(end) = <TBD>;
+    % Metoda 3 punktowa
+    for i = 2:length(x) - 1
+        A(i, i) = (- 2 / (h ^ 2)) - 3;
+        A(i, i - 1) = 1 / h ^ 2;
+        A(i, i + 1) = 1 / h ^ 2;
+        b(i) = <TBD>;
+    end
+    % Solve and print solution
+    y = A \ b;
+    plot(x, y, 'rx', x, fun(x), 'b');
+    E = [];
+     E = abs(fun(x)'-y); % wektor bledow
+    Eavg = 0;
+    for k = 1:length(x) - 1
+        Eavg = Eavg + (E(k) + E(k + 1)) / 2;
+    end
+    Eavg = Eavg / (length(x) - 1) % blad sredni
+    Emax = max(E) % blad maksymalny
+end
+function d2y = fun(a)
+    <TBD> % funkcja analityczna
+end
+Po poprawnym
