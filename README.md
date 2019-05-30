@@ -19,3 +19,8 @@
 
 ### Boundary problem – finite element method (or transient state method)
 – Two tests each for 8 points on the 4th lab and 7th
+
+
+
+# LAB 6
+- http://dydmat.mimuw.edu.pl/matematyka-obliczeniowa/rozwiazywanie-rownan-nieliniowych
