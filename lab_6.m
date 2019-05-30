@@ -26,3 +26,15 @@ end
 function funkcja =f(x)
   funkcja = <funkcja> ;
 end
+
+
+______________
+3
+______________
+
+a = fsolve(@f, [0,0], optimoptions('fsolve','Display','iter'))
+
+function ukladzik=f(x)
+ukladzik = [x(1).*x(1) + x(2).*x(2) - 8*x(1) - 4*x(2) + 11
+            x(1).*x(1) + x(2).*x(2) - 20*x(1) + 75 ];
+end
